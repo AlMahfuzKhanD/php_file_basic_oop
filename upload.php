@@ -7,11 +7,11 @@
  */
 
 if(isset($_POST['submit'])){
-    echo "<pre>";
+    /*echo "<pre>";
 
     print_r($_FILES['file_upload']);
-    echo "</pre>";
-
+    echo "</pre>";*/
+## types of error in php file system ####
     $upload_errors = array(
         UPLOAD_ERR_OK => "There is no error",
         UPLOAD_ERR_INI_SIZE => "The uploaded file exceeds the upload_max_filesiz directive in php.ini",
@@ -22,8 +22,30 @@ if(isset($_POST['submit'])){
         UPLOAD_ERR_CANT_WRITE => "Failed to write file to disk",
         UPLOAD_ERR_EXTENSION => "A PHP extension stopped the file upload."
     );
-    $the_error = $_FILES['file_upload']['error']; // error what is catched in the file after being uploaded
-    $the_message = $upload_errors[$the_error];
+
+
+
+
+
+
+######### for uploading file ###############
+    $temp_name = $_FILES['file_upload']['tmp_name'];
+    $the_file = $_FILES['file_upload']['name'];
+    $directory = "uploads";
+
+    if(move_uploaded_file($temp_name,$directory."/".$the_file)){
+        $the_message = "File uploaded successfully";
+    }else{
+        $the_error = $_FILES['file_upload']['error']; // error what is catched in the file after being uploaded
+        $the_message = $upload_errors[$the_error];
+    }
+
+
+########## end uploading file ##########
+
+
+
+
 }
 
 

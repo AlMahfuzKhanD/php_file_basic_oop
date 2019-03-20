@@ -17,10 +17,13 @@
       <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="-204">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
+                <marker date="1553087450633" expanded="true" signature="1458:1477" ph="..." />
+                <marker date="1553087450633" expanded="true" signature="1727:1741" ph="..." />
+                <marker date="1553087450633" expanded="true" signature="1808:1923" ph="..." />
               </folding>
             </state>
           </provider>
@@ -77,6 +80,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="basic_files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic_files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553073885583</updated>
-      <workItem from="1553073886751" duration="3339000" />
+      <workItem from="1553073886751" duration="4312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3339000" />
+    <option name="totallyTimeSpent" value="4312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="93" width="1575" height="1015" extended-state="0" />
@@ -209,12 +226,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/uploads/1066011005.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="-204">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1553087450633" expanded="true" signature="1458:1477" ph="..." />
+            <marker date="1553087450633" expanded="true" signature="1727:1741" ph="..." />
+            <marker date="1553087450633" expanded="true" signature="1808:1923" ph="..." />
           </folding>
         </state>
       </provider>
